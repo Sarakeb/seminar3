@@ -1,0 +1,4 @@
+japp,$2y$10$ZklS5CtBSYrJkKU.9v0WYuvF084Kg4zxPVEmLlDxDrc5ahacQxARK
+sarii,$2y$10$pWX2ZFNUyey3JwhsNafX.ePQv00jNHY8XbUuJCWNfwfsn4VK.i6bG
+sara,$2y$10$8fTe.YgFEI7PF0TXm3fw6.jUeKwRl8Wd8yli2nWjl/lU4rFMvowam
+user1,$2y$10$ZrGd77LPemsF.SZsZSjVteDUCik9MpToMCkJPvv/biFluxJVj53HO

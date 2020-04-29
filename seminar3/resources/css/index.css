@@ -1,0 +1,304 @@
+body {
+    margin:0;    
+    background: url("../images/tasty1.jpg");
+    background-size: cover;
+    
+}
+
+ul {
+   /* list-style-type: none; */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00CED1;
+    font-size: 15px;
+   
+}
+
+li {
+    float: left;
+}
+
+/*texten ovan*/
+li a, .dropbtn { 
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 20px 20px;
+    /*text-decoration: none;*/
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* g�r s� att det lyser n�r man trycker p� knapparna */	
+
+li a:hover, .abc:hover .dropbtn {
+    background-color: rgba(143,188,143,.9);
+    font-family: "Times New Roman", Times, serif;
+}
+
+						
+						
+											
+						
+/* texten tasty. recipt etc */
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 60px;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+
+
+.box h3 {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    color: darkslategrey;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 0px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+							
+
+/*boxen av pankakor och k�ttbullar*/
+.box {
+    width: 80%;
+    overflow: auto;
+    margin-left: 15%;
+    margin-bottom: 15%;
+    background-color: rgba(255,255,255,0.9);
+    border: 1px solid white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
+    border-radius: 5px;
+    }
+
+						
+
+
+/*storleken p� bilden p� k�ttbullar och pakakor i boxen*/
+.box img {
+    height: 200px;
+    width: 200px;
+    float: right;
+    padding-right: 5%;
+    padding-top: 5%;
+} 
+
+    
+    /* Mon-Sun text box color etc  */
+    .weekdays {
+        margin: 0;
+        padding: 10px 0;
+        background-color:#ddd;
+    }
+           
+           
+           
+           /* Mon-Sun text color etc*/
+   .weekdays li {
+        display: inline-block;
+        width: 13.6%;
+        color: #000000;
+        text-align: center;
+    }
+  
+  
+  
+  /* color of the box for the month , Days (1-31) */
+    .days {
+        padding: 10px 0;
+        background: #eee;  /*gr�*/
+        margin: 0;
+    }
+    
+    /*.days li {
+    
+    
+        list-style-type: none;
+        display: inline-block;
+        width: 13.6%;
+        text-align: center;
+        margin-bottom: 5px;
+        font-size:12px;
+        color: #777; 
+                        }*/
+            
+            
+            
+            
+           .days li {
+	    display: inline-block;
+	    width: 10%;
+	    height: 5em;
+	    padding: 0 2%;
+	    padding-top: 0.5em;
+	    font-size: 1em;
+	    color:#777;
+	    
+	}
+
+.inactive{color: brown;}
+
+
+/*Images within the calendar*/
+.calendarpic{
+	width: 5em;
+	height: 4em;
+	float: center;
+
+}    
+    
+       
+    input[type=text], select, textarea {
+        width: 100%; /* Full width */
+        padding: 12px; /* Some padding */  
+        
+        margin-top: 6px; /* Add a top margin */
+        margin-bottom: 16px; /* Bottom margin */
+        resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    }
+    
+    /* Style the submit button with a specific background color etc */
+    input[type=submit] {
+        background-color: #4CAF50;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        
+       
+    }
+    
+    /* When moving the mouse over the submit button, add a darker green color */
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+    
+    
+    
+#commentlist {
+    padding-top: 1%;
+    margin-top:1%;
+    margin-left: 5%;
+    background-color: white;
+    width: 40%;
+    height: 20px;  
+}
+
+#commentlist2 {
+    padding-top: 1%;
+    margin-top:1%;
+    margin-left: 5%;
+    background-color: white;
+    width: 40%;
+    height: 20px;  
+}
+
+    
+  h4 {
+    text-align: center;
+    font-size: 25px;
+	font-weight: bold;
+	}
+    
+    #commentlist p {
+        font-size: 15px;
+        margin-left: 1%;
+        color: black;
+        font-family: "Times New Roman", Times, serif;
+}
+
+#commentlist2 p {
+        font-size: 15px;
+        margin-left: 1%;
+        color: black;
+        font-family: "Times New Roman", Times, serif;
+}
+
+
+
+
+
+.loggedinbox {
+    margin: auto;
+    background-color: rgba(255,255,255,0.9);
+    width: 50%;
+    border: 1px solid white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
+    border-radius: 5px;
+    padding-bottom: 5%;
+}
+
+.loggedinbox h2 {
+    text-align: center;
+}
+
+
+
+
+/*färgen på btn loggin?*/
+.login {
+      text-align: right;
+    font-size:17px;
+    width:%;
+    display:inline-block;
+       background-color: #75CB69;
+}
+
+
+
+/* Style the navbar */
+.topnav {
+  overflow: hidden;
+  /*background-color: #00CED1;*/
+}
+
+/* Style the input container */
+.topnav .login-container {
+  float: right;
+}
+
+/* Style the input field inside the navbar */
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 12px;
+  border: none;
+  width: 150px; /* adjust as needed (as long as it doesn't break the topnav) */
+}
+
+/* Style the button inside the input container */
+.topnav .login-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .login-container button:hover {
+  background: #ccc;
+}
+
+
+  
